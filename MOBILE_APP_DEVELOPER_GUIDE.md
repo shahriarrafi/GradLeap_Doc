@@ -96,7 +96,7 @@ When building your Flutter models, pay attention to these core structures:
 - Create a `Dio` or `http` client wrapper that automatically attaches the `Authorization: Token` header if available.
 
 ### **Phase 2: Core UI (Days 6-20)**
-- Build screens using our [Design Style Guide](README.md#design-aesthetics) (Dark Modern UI, Card-based).
+- Build screens using our [Design Style Guide](ROADMAP.md#design-aesthetics) (Dark Modern UI, Card-based).
 - Use `CachedNetworkImage` for course thumbnails to ensure high performance.
 
 ### **Phase 3: Integration (Days 21-29)**
@@ -110,7 +110,3 @@ When building your Flutter models, pay attention to these core structures:
 - **Video Playback:** Lesson videos are served via URL. Use `video_player` or `chewie` in Flutter.
 - **PDF Viewing:** Use `flutter_pdfview` for resources and digital books.
 
----
-
-**Documentation Status:** 🟢 Verified & Ready for Handoff
-**Support:** For API issues or schema changes, contact the Backend Lead.
